@@ -31,11 +31,11 @@ document.getElementById("validar").addEventListener("click", function(){
 
     if(AlgoritmoLuhn(dato)){
 
-        resultado.textContent = "Número de cédula válido"
-        resultado.className = "Válido"
+        resultado.textContent = "Número de cédula válido 😉"
+        resultado.className = "valido"
     }else{
-        resultado.textContent = "Número de cédula inválido"
-        resultado.className = "Inválido"
+        resultado.textContent = "Número de cédula inválido 😢"
+        resultado.className = "invalido"
     }
 
 }
